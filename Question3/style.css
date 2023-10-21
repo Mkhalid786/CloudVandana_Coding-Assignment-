@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html ,body{
+    width: 100%;
+    height: 100%;
+}
+#calculator{
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 35vw;
+    height: 75vh;
+    /* background-color: aqua; */
+    display: flex;
+}
+.right{
+    width: 80%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    width: 20%;
+    height: 100%;
+    /* background-color: gold; */
+    display: flex;
+    flex-direction: column;
+}
+.up{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+}
+.down{
+    width: 100%;
+    height: 80%;
+    background-color: black;
+}
+.up1{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(53, 53, 110);
+    position: relative;
+}
+.down1{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(39, 35, 11);
+    display: flex;
+    flex-direction: column;
+}
+.main input[type='text'] {
+    width: 88%;
+    position: relative;
+    background-color: transparent;
+    height: 80px;
+    top: 5px;
+    text-align: left;
+    padding: 3px 6px;
+    outline: none;
+    font-size: 40px;
+    border: none;
+    display: flex;
+    margin: auto;
+    border-radius: 6px;
+    color: black;
+ }
+ .down input[type='button']{
+    width:32.6%;
+    position: relative;
+    height: 25%;
+    cursor: pointer;
+    font-size: 25px;
+    border: none;
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+ }
+ .down input[type='button']:hover{
+    background-color: black;
+    color: white;
+ }
+ .down1 input[type='button']{
+    width:100%;
+    position: relative;
+    height: 25%;
+    cursor: pointer;
+    font-size: 25px;
+    border: none;
+    transition: 0.5s;
+    background-color: gray;
+    color: white;
+ }
+ .down1 input[type='button']:hover{
+    background-color: black;
+    color: white;
+ }
+ .up1 input[type='button']{
+    width:100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    font-size: 25px;
+    border: none;
+    transition: 0.5s;
+    background-color: rgb(59, 153, 59);
+    color: white;
+ }
+ .up1 input[type='button']:hover{
+    background-color: black;
+    color: white;
+ }
